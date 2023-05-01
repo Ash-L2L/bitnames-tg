@@ -1,0 +1,18 @@
+[package]
+name = "bitname-tg"
+version = "0.1.0"
+authors = ["Ash Manning <ashermanning@yahoo.co.uk>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.70"
+reqwest = "0.11.16"
+rust-crypto = "0.2.36"
+rust_decimal = "1.29.1"
+serde = "1.0.16"
+serde_jcs = "0.1.0"
+serde_json = "1.0.96"
+serde_with = {version = "2.3.2", features = ["hex"]}
+tokio = "1.28.0"
